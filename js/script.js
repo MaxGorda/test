@@ -1,9 +1,22 @@
 "use strict";
 
-const category = 'toys';
+console.log('arr' + " - object");
+console.log(4 + "5");
 
-console.log(`https://someurl.com/${category}/5`);
+let incr = 10,
+    decr = 10;
 
-const user = "Ivan";
+    //incr++;
+    //decr--;
 
-alert(`Hello, ${user}`);
+    console.log(++incr);
+    console.log(--decr);
+
+    console.log(5%2);
+
+    console.log(2 + 2 * 2 == '8');
+    
+    const isCheked = true;
+          isClose = true;
+
+          console.log(isCheked || !isClose);
